@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rusween's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu">
+            <a class="home" href="#home">HOME</a>
+            <a href="#aboutme">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+    <section id="home" class="hero-box">
+        <div class="txt-left">
+            <h1 style="font-size:40px;">Junaideen Mohomad Rusween</h1>
+            <h3 class="developer-txt"><span style="color: cyan;">Undergraduate Student</span></h3>
+            <div class="social-media">
+                <a href="https://www.facebook.com/mohammed.rusween?mibextid=ZbWKwL" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://github.com/Rusween225" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mohomad-rusween-b974232b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <a href="Database/Resume.pdf" download="">
+                <button>Download CV</button>
+            </a>
+            </div>
+        <div class="img-right">
+           <img width="300px" height="300px" src="Database/profile.jpg" alt=" ">
+        </div>
+    </section>
+
+    <section id="aboutme" class="about" style="padding-top:80px;">
+        <div>
+            <h1 class="heading">About me</h1>
+        </div>
+        <div class="para">
+            <p>I am Rusween. Currently, studying a Bachelor of Science in Information Technology at University of Moratuwa.
+               I possess a passion for exploring new things and applying my learning in practical situations.</p>
+        </div>
+        <div>
+            <img class="about-img" src="Database/123.webp" alt="">
+        </div>
+    </section>
+
+    <section id="skills" class="skill-box" style="padding-top:80px">
+        <div>
+            <h1 class="heading">Skills</h1>
+        </div>
+        <div class="skills-list">
+            <div class="skill-category">
+                <h2>Programming Languages</h2>
+                <ul>
+                    <li>C</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h2>Frameworks</h2>
+                <ul>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>React-Native</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h2>Database</h2>
+                <ul>
+                    <li>Postgre SQL</li>
+                    <li>MySQL</li>
+                    <li>MS SQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h2>Data Structures and Algorithm</h2>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects" style="padding-top:100px">
+        <div style="margin-bottom:30px;">
+            <h1 class="heading">Projects</h1>
+        </div>
+        <div class="project-list">
+            <div class="project">
+                <div class="project-info">
+                    <h2>Mini Database System</h2>
+                    <p>Database system employing advanced data structures to enhance data storage, retrieval, and management.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h2>User Login System</h2>
+                    <p>An object-oriented user login system, leveraging encapsulation, inheritance, and polymorphism to ensure security..</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-info">
+                    <h2>Train Reservation System</h2>
+                    <p>File-based train reservation system in C, integrating unique Passenger Name Records (PNR) generation and efficient
+                        management of seat reservations..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact" style="padding-top:100px;">
+        <div>
+            <h1 class="heading">Contact</h1>
+        </div>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email Id" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message here" required></textarea>
+                </div>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
